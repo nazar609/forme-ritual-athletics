@@ -2,6 +2,8 @@
 
 Коммерческий лендинг вымышленного boutique fitness-клуба **FORME / Ritual Athletics**. Проект собран как портфолио-кейс: с полноценной брендовой подачей, фирменной фотосъёмкой, адаптивной editorial-сеткой, интерактивным расписанием и рабочей записью на пробный класс.
 
+![FORME landing preview](./public/preview.png)
+
 ## Что реализовано
 
 - выразительный hero с parallax/scroll-эффектом и motion typography;
