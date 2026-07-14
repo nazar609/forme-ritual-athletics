@@ -45,7 +45,7 @@ npm start
 
 ## GitHub Pages
 
-Репозиторий содержит workflow `.github/workflows/deploy-pages.yml`. Каждый push в `main` собирает статический export с base path `/forme-ritual-athletics` и публикует его через GitHub Pages. На Pages форма записи использует demo-fallback в `localStorage`; при обычном Node-запуске продолжает работать `POST /api/leads`.
+Для GitHub Pages проект собирается командой `STATIC_EXPORT=true npm run build`, после чего содержимое `out/` публикуется в ветку `gh-pages` с base path `/forme-ritual-athletics`. На Pages форма записи использует demo-fallback в `localStorage`; при обычном Node-запуске продолжает работать `POST /api/leads`.
 
 ## Заявки
 
